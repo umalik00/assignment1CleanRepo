@@ -51,7 +51,8 @@ input[type ="text"]{
     position: relative;
     top: 10%;
     text-align: center;
-    transform: translate(100%, 100%);
+    transform: translate(50%, 100%);
+    
 } 
 
 .h {
