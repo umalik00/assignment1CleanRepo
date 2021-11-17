@@ -13,6 +13,8 @@ align-items: center;
 img {
         width: 300px;
         height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
         
 
 }
@@ -28,8 +30,9 @@ img {
 .searchb{
     width: 500px;
     height: 45px;
+    margin-top: 80px;
     position: absolute;
-    transform: translate(0%, 100%);
+    transform: translate(0%, 80%);
 }
 
 input[type ="text"]{
@@ -47,7 +50,17 @@ input[type ="text"]{
 
 }
 
-button {
-    transform: translate(0%, 200%);
+.sbutton {
+    position: relative;
+    top: -10px;
+    text-align: center;
+    transform: translate(-20%, 50%);
+} 
 
+@media only screen and (max-width: 650px ) {
+    /*search bar*/
+    .searchb {
+        width: 90;
+    }
+    
 }
