@@ -25,7 +25,7 @@ Usage:
 
 ### Process
 
-One person mainly worked on the client sides and the one worked on the server side making sure to communicate 
+One person mainly worked o n the client sides and the one worked on the server side making sure to communicate 
 and give advice on each part as well as committing each major change.
 
 
